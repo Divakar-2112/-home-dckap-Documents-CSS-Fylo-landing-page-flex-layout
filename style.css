@@ -1,0 +1,184 @@
+body{
+    background-color:#f9f8fe;
+}
+.main-container{
+    
+    
+}
+.sub-container nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.content-1{
+    display: flex;
+}
+.para-content-1{
+    padding-left: 4%;
+    width: 50%;
+    margin-top: 100px;
+ }
+.img-1 img{
+    display: flex;
+    justify-content: end;
+   width: 100%;
+     
+}
+.form-content-1 button{
+    background-color:blue;
+    height: 30px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-weight: 700;  
+    cursor: pointer;  
+}
+.form-content-1 input{
+    height: 25px;
+    width: 200px;
+}
+button:hover{
+    background-color: #6b9bff;
+
+}
+.content-2{
+    display: flex;
+}
+.img-2 img{
+    display: flex;
+    justify-content: end;
+   width: 100%;
+}
+.para-content-2{
+    padding-left: 4%;
+    width: 50%;
+    margin-top: 100px;
+ }
+ a{
+    color:#7fe7d5;
+ }
+ .img-icon-1{
+    width: 100%;
+ }
+ .content-2 .content-box{
+    margin-top: 40px;
+ }
+ .content-box{
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px;
+    padding: 30px;
+    width: 70%;
+    height: 30%;
+    
+ }
+ .avatar img{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+ }
+ .avatar{
+    display: flex;
+ }
+ .avatar-content p,h4{
+    margin: 0px;
+ }
+ .avatar-content {
+    padding-top: 5px;
+    padding-left: 10px;
+ }
+ .content-3{
+    background-color: #575989;
+    padding: 30px;
+    display: flex;
+    color: white;
+    /* width: 100%; */
+ }
+ .para-content-3{
+    width: 50%;
+    padding-left: 4%;
+ }
+ .form-content-2 input{
+    height: 30px;
+    width: 350px;
+    border-radius: 3px;
+    border: none;
+    margin: 20px;
+
+ }
+ .form-content-2 button{
+    height: 30px;
+    width: 40%;
+    border-radius: 3%;
+    border: none;
+    /* margin:4%; */
+    margin-left: 4%;
+    background-color:blue;
+    color: white;
+    font-weight: 700;  
+    cursor: pointer;
+    
+ }
+ button:hover{
+    background-color: #6b9bff;
+
+}
+ .content-4{
+   background-color: #07043b;
+   width: 100%;
+ }
+ .footer-bar-2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 200px;
+    
+    
+ }
+ .icon-contact{
+    list-style: none;
+    color: white;
+ }
+ .about{
+    list-style: none;
+    color: white;
+   
+ }
+ .contact{
+    list-style: none;
+    color: white;
+    
+ }
+ .footer-icon{
+    color: white;
+    border-radius: 10px;
+    
+ }
+ .logo-2{
+    padding-left: 50px;
+    padding-top: 30px;
+ }
+ .icon-contact a{
+    color: white;
+    
+ }
+ .about li{
+    padding: 10px;
+ }
+ .footer-icon i{
+    padding: 10px;
+ }
+ .icon-contact li{
+    padding: 5px;
+ }
+ .icon-contact img{
+    margin-right: 10px;
+ }
+ .icon-contact a{
+    text-decoration: none;
+ }
+ 
