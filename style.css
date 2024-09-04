@@ -22,12 +22,12 @@ nav ul{
 .para-content-1{
     padding-left: 4%;
     width: 50%;
-    margin-top: 100px;
+    /* margin-top: 100px; */
  }
 .img-1 img{
     display: flex;
     justify-content: end;
-   width: 100%;
+   width: 90%;
      
 }
 .form-content-1 button{
@@ -55,6 +55,14 @@ button:hover{
     justify-content: end;
    width: 100%;
 }
+.content-box{
+   border-radius: 5px;
+   box-shadow: 1px 1px 8px;
+   padding: 30px;
+   width: 70%;
+   height: 30%;
+         
+}
 .para-content-2{
     padding-left: 4%;
     width: 50%;
@@ -66,16 +74,14 @@ button:hover{
  .img-icon-1{
     width: 100%;
  }
+ .img-icon-2{
+   display: none;
+ }
  .content-2 .content-box{
     margin-top: 40px;
  }
- .content-box{
-    border-radius: 5px;
-    box-shadow: 1px 1px 8px;
-    padding: 30px;
-    width: 70%;
-    height: 30%;
-    
+ .quotes{
+   text-align: left;
  }
  .avatar img{
     border-radius: 50%;
@@ -181,4 +187,111 @@ button:hover{
  .icon-contact a{
     text-decoration: none;
  }
- 
+
+ @media screen and (max-width:767px) {
+   .content-1 {
+      flex-direction: column-reverse;
+      text-align: center;gap: 30px;
+      align-items: center;
+   }
+
+   .para-content-1 {
+      width : 70%;
+      margin: 0;
+   }
+
+   .img-1 {
+      width: 80%;
+   }
+   .form-content-1 {
+      display: flex;
+      flex-direction: column;
+   } 
+   .form-content-1 button{
+      height: 30px;
+      width: 102%;
+      
+  }
+  .form-content-1 input{
+      height: 25px;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+   .content-2{
+      flex-direction: column-reverse;
+      text-align: center;
+      gap: 30px;
+      align-items: center;
+
+   }
+   .para-content-2{
+      width : 80%;
+      margin: 0;
+
+   }
+   .img-2{
+      width: 80%;
+
+   }
+   .content-box{
+      border-radius: 5px;
+      box-shadow: 1px 1px 8px;
+      padding: 30px;
+      width: 70%;
+      height: 30%;
+            
+   }
+   .content-3{
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      margin-top: 30px;
+   }
+   .para-content-3{
+      width : 80%;
+      margin: 0;
+
+   }
+   .form-content-2 input{
+      height: 30px;
+      width: 80%;
+      border-radius: 3px;
+      border: none;
+      margin: 10px;
+  
+   }
+   .form-content-2 button{
+      height: 30px;
+      width: 80%;
+      border-radius: 3%;
+      border: none;
+      margin-right: 4%;
+      
+    background-color:blue;
+    color: white;
+    font-weight: 700;  
+    cursor: pointer;
+   }
+   .content-4{
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+      align-items: center;
+
+   }
+   .footer-bar-1{
+      flex-direction: column;
+      text-align: left;
+      gap: 30px;
+   }
+   .footer-bar-2{
+      flex-direction: column;
+      text-align: left;
+      gap: 30px;
+      
+   }
+   .footer-icon{
+      text-align: center;
+   }
+ }
