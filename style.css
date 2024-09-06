@@ -152,14 +152,15 @@ button:hover{
  }
  .footer-bar-2{
     display: flex;
-    /* justify-content: space-evenly; */
-    gap: 200px;
+    justify-content: space-between;
+    /* gap: 200px; */
     
     
  }
  .icon-contact{
     list-style: none;
     color: white;
+    
  }
  .about{
     list-style: none;
@@ -316,7 +317,7 @@ button:hover{
 
    }
    .icon-contact {
-      width: 100%;
+      width: 80%;
 
    }
    .footer-bar-1{
