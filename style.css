@@ -176,6 +176,8 @@ button:hover{
     color: white;
     border-radius: 10px;
     display: flex;
+    /* margin-right: 200px; */
+   
     
  }
  .logo-2{
@@ -335,5 +337,6 @@ button:hover{
    .footer-icon{
       display: flex;
       justify-content: center;
+      
    }
  }
