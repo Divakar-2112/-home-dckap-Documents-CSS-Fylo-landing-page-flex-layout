@@ -1,5 +1,5 @@
 body{
-    background-color:#f9f8fe;
+    /* background-color:#f9f8fe; */
     margin: 0px;
 }
 
@@ -62,6 +62,13 @@ button:hover{
 }
 .content-2{
     display: flex;
+    background-image: url(images/bg-curve-desktop.svg);
+    /* background-color:  hsl(240, 75%, 98%); */
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+
 }
 .img-2 img{
     display: flex;
@@ -74,6 +81,7 @@ button:hover{
    padding: 30px;
    width: 70%;
    height: 30%;
+   margin-bottom: 10%;
          
 }
 .para-content-2{
@@ -86,6 +94,7 @@ button:hover{
  }
  .img-icon-1{
     width: 100%;
+    display:block;
  }
  .img-icon-2{
    display: none;
@@ -113,14 +122,15 @@ button:hover{
  }
  .content-3{
     background-color: #575989;
-    padding: 30px;
+    padding: 40px;
     display: flex;
     color: white;
-    /* width: 100%; */
+   
  }
  .para-content-3{
-    width: 50%;
-    padding-left: 4%;
+    width: 40%;
+    padding-left: 2%;
+    margin-top: 10px;
  }
  .form-content-2 input{
     height: 30px;
